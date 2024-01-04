@@ -1,0 +1,129 @@
+/* Button */
+.m-btn {
+    display : flex;
+    align-items : center;
+    background-color: #1aa4c8;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: GoogleSans;
+    /* padding-left : 16px;
+    padding-right : 16px; */
+    outline : none;
+    border : none;
+    cursor : pointer;
+    padding: 0px;
+}
+
+.m-btn-default{
+    padding: 0px;
+}
+
+.btn-out-line{
+    background-color: #ffffff !important;
+    border: 1px solid #BBBBBB !important;
+    color: black;
+}
+
+.btn-out-line:hover{
+    background-color: #1aa4c8 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.btn-sub{
+    border: 1px solid #88d0e3 !important;
+    color: #2baacc;
+    background-color: #ffffff !important;
+}
+.btn-sub:hover{
+    background-color: #d1edf4 !important;
+}
+
+.btn-sub:active{
+    background-color: #ffffff !important;
+}
+
+/* hover */
+.m-btn:hover {
+    background-color: #0582a2;
+}
+
+/* active */
+.m-btn:active {
+    background-color: #28b7dc;;
+}
+
+.m-btn .m-btn-icon {    
+    background-position: center;
+    margin-left: 16px;
+}
+
+.m-btn .btn-text {
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+.m-second-button {
+    border: 1px solid #bbbbbb;
+    background-color : #FFFFFF;
+    border-radius: 4px;
+    height: 36px;
+    width : 36px;
+    color: #000000;
+    padding-left: 24px;
+    /*padding-right: 24px;*/
+    text-align: center;
+    outline : none;
+    cursor : pointer;
+    box-sizing: border-box;
+    
+}
+
+.m-second-button.m-btn-delete{
+    cursor: pointer;
+    margin-left: 16px;
+    background-image: url('../images/icons/icon-delete.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    overflow: hidde;
+    border: none;
+}
+
+.m-btn-cancel {
+    padding: 0 24px;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    height: 36px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.m-btn-cancel:hover {
+    background-color: #BBBBBB;
+}
+
+.m-btn-save {
+    padding: 0px 24px;
+    margin-top : 10px; 
+    height: 36px !important;
+}
+
+.border-tab{
+    border: 1px solid #000000 !important;
+}
+
+.remove-border-tab{
+    border: none !important;
+}
+
+

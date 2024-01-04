@@ -1,0 +1,56 @@
+﻿
+
+
+.ftco-cart button {
+    height: 40px !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+}
+
+    .ftco-cart button i {
+        color: #fff !important;
+    }
+
+
+.row-margin-top {
+    margin-top: 20px;
+}
+
+#frmPayment .form-control {
+    height: 35px !important;
+    text-align: left !important;
+    text-indent: 10px !important;
+}
+
+#btnCheckout {
+    margin-left: 10px !important;
+}
+
+.btn-confirm {
+    background-color: #71b232 !important;
+}
+
+.user-message {
+    width: 100% !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    font-size: 15px !important;
+    text-indent: 10px !important;
+}
+
+    .user-message:focus {
+        border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    }
+
+.section-login{
+    margin-top:20px !important;
+    padding:0px !important;
+    margin-bottom:20px !important;       
+}   
+
+
+.error-validate{
+    color:red;
+    font-size:13px;
+}
+

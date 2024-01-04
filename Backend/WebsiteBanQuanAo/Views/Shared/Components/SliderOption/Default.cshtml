@@ -1,0 +1,38 @@
+﻿@model IEnumerable<NXHOANG.ApplicationCore.Entity.Slide>
+
+<link rel="stylesheet" href="~/css/CustomCss/SliderSection.css" />
+
+<div class="home-slider owl-carousel">
+
+    @{
+        foreach (var item in Model)
+        {
+            var imageName = item.Image;
+
+            <div class="slider-item" style="background-image: url(/images/ImageProductSlide/@imageName );">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+                        <div class="col-md-12 ftco-animate text-center">
+                            <h1 class="mb-2">@item.SlideName</h1>
+                            <h2 class="subheading mb-4">@item.Content</h2>
+                            <p><a href="#" class="btn btn-primary">View Details</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+</div>
+
+
+
+
+
+
+
+
+

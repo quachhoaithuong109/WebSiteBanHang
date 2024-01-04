@@ -1,0 +1,9 @@
+﻿
+.owl-carousel.home-slider {
+    height: 486px !important;
+}
+
+    .owl-carousel.home-slider .slider-item {
+        height: 486px !important;
+        background-size: contain !important;
+    }

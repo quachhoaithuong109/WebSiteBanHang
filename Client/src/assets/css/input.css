@@ -1,0 +1,94 @@
+/* input */
+input{
+    padding : 9px 16px;
+    border-radius : 4px;
+    outline : none;
+    border :1px solid #bbbbbb;
+}
+
+input::placeholder{
+    font-size : 13px;
+}
+
+input::placeholder{
+    font-size : 13px;
+}
+
+
+input[type="date"]::-webkit-datetime-edit, input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-clear-button {
+    color: #fff;
+    position: relative;
+}
+
+input[type="date"]::-webkit-datetime-edit-day-field {
+    position: absolute !important;
+    color: #000;
+    padding: 2px;
+
+    left: 4px;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+    position: absolute !important;
+    border-left: 1px solid #8c8c8c;
+    padding: 2px;
+    color: #000;
+    left: 26px;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+    position: absolute !important;
+    border-left: 1px solid #8c8c8c;
+    padding: 2px;
+    color: #000;
+    left: 56px;
+}
+
+/* Input Search */
+.input-search {
+    padding-left: 40px;
+    font-size: 13px;
+    /* font-style: italic; */
+}
+
+.input-search:hover{
+    box-shadow: 0 0 1.5px 0 #0078d7
+}
+
+.input-search:focus{
+    box-shadow: 0 0 1.5px 0 #0078d7
+}
+
+/* input popup */
+
+.input-popup-left  {
+    /* padding: 7px 16px; */
+    margin-top: 8px;
+    /* width: 268px; */
+    /* width: 278.6px; */
+    width: 451px;
+    /* padding: 11px 16px; */
+    padding: 7px 16px;
+    box-sizing: border-box;
+}
+
+.input-popup-right{
+    /* padding: 7px 16px; */
+    margin-top: 8px;
+    /* width: 560px; */
+    /* width: 573.2px; */
+    width: 451px;
+    /* padding: 11px 16px; */
+    padding: 7px 16px;
+    box-sizing: border-box;
+}
+
+.input-typenumber-popup{
+    text-align: right;
+    /* padding: 9px 32px 9px 16px; */
+    padding: 9px 32px 9px 16px !important;
+}
+
+.align-right-input{
+    text-align: right;
+}

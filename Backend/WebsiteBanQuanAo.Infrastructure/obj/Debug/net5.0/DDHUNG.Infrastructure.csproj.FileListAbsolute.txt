@@ -1,0 +1,30 @@
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.Infrastructure.deps.json
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.Infrastructure.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\bin\Debug\net5.0\ref\DDHUNG.Infrastructure.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.Infrastructure.pdb
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.ApplicationCore.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.ApplicationCore.pdb
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.csproj.AssemblyReference.cache
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.AssemblyInfoInputs.cache
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.AssemblyInfo.cs
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.csproj.CoreCompileInputs.cache
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.csproj.CopyComplete
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\ref\DDHUNG.Infrastructure.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.Infrastructure.deps.json
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\DDHUNG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.csproj.AssemblyReference.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.AssemblyInfoInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.AssemblyInfo.cs
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.csproj.CopyComplete
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\refint\DDHUNG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\DDHUNG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\ref\DDHUNG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.pdb

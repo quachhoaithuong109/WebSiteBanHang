@@ -1,0 +1,225 @@
+
+/* Tooltip trên form dialog */
+.input-form{
+    position: relative;
+    display: inline-block;
+}
+
+
+/* .input-form:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.tooltiptext {
+    display: none;
+    visibility: hidden;
+    width: auto;
+    background-color:#ff4646;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+    /* left: 30%;
+    margin-left: -60px; */
+    left: 0%;
+    margin-left: 0px;
+}
+
+.tooltiptext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ff4646 transparent;
+}
+
+.input-form-right{
+    position: relative;
+    display: inline-block;
+}
+
+.input-form-left{
+    position: relative;
+    display: inline-block;
+}
+
+/* .input-form-right:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+.input-form-left:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+} */
+
+/* Tooltip trên thanh filter bar */
+.wrap-btnfilter-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.filterbar-tooltiptext{
+    display: none;
+    visibility: hidden;
+    width: 80px;
+    background-color:#ffffff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+    left: 130%;
+    margin-left: -60px;
+}
+
+.filterbar-tooltiptext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+.wrap-btnfilter-tooltip:hover .filterbar-tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Tooltip trên gridview */
+
+.wrap-icongrid-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.grid-tooltiptext{
+    display: none;
+    visibility: hidden;
+    width: 50px;
+    background-color:#ffffff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+    left: 220%;
+    margin-left: -60px;
+}
+
+.grid-tooltiptext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+.wrap-icongrid-tooltip:hover .grid-tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Tooltip trên thanh navbar */
+
+.navbar-collapse .wrap-tooltip-navbar{
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .tooltiptext-navbar{
+    display: none;
+}
+
+.navbar-collapse .tooltiptext-navbar{
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    visibility: hidden;
+    width: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    left: 92%;
+}
+
+.navbar-collapse .tooltiptext-navbar::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.navbar-collapse .wrap-tooltip-navbar:hover .tooltiptext-navbar{
+    visibility: visible;
+    opacity: 1;
+}
+
+.delete-tooltiptext{
+    width: 50px !important;
+    left: 135%;
+}
+
+.fixedAssetName-tooltiptext{
+    left: 0% !important;
+}
+
+/* Tooltip trên popup nguồn kinh phí */
+
+.m-tooltip-add-origin-funding{
+    left: -60px;
+    width: 141px;
+    top: 33px;
+}
+
+.m-tooltip-delete-origin-funding{
+    left: -44px;
+    width: 141px;
+    top: 33px;
+}
+
+/* Tooltip trên thead*/
+
+.m-tooltip-STT{
+    left: -8px;
+    width: 75px;
+    top: 30px;
+    font-weight: 500 !important;
+}
+
+
+.m-tooltip-thead-rest{
+    left: -8px;
+    width: 175px;
+    top: 30px;
+    font-weight: 500 !important;
+}

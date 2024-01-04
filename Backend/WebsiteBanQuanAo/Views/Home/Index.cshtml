@@ -1,0 +1,289 @@
+﻿
+@model NXHOANG.ApplicationCore.ViewModel.HomeViewModel
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/CustomCss/ProductSection.css" />
+
+<!--Slide -->
+<section id="home-section" class="hero">
+
+    @await Component.InvokeAsync("Slider");
+
+</section>
+
+@if (Model.TableLatests.Count > 0)
+{
+    <section class="ftco-section product-section">
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+
+                    <span class="subheading">Bàn Ghế Mới Nhất</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                @{
+
+                    foreach (var item in Model.TableLatests)
+                    {
+                        var urlImage = "";
+
+                        // Bàn Ghế
+                        urlImage = "/images/ImageProduct/BanGhe/" + item.Image;
+
+                        var urlProductDetail = "/" + "san-pham-chi-tiet" + "/" + item.ProductId + ".html";
+
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="product">
+                                <a href="#" class="img-prod">
+                                    <img class="img-fluid" src=@urlImage alt="Colorlib Template">
+                                    <span class="status">30%</span>
+                                    <div class="overlay"></div>
+                                </a>
+                                <div class="text py-3 pb-4 px-3 text-center">
+                                    <h3>
+                                        <a href="#" title="@item.ProductName">
+                                            <div class="product-name-text">@item.ProductName</div>
+                                        </a>
+                                    </h3>
+                                    <div class="d-flex">
+                                        <div class="pricing">
+                                            <p class="price">
+                                                @if (item.PromotionPrice != null && item.PromotionPrice != 0)
+                                                {
+                                                    <span class="mr-2 price-dc">@((Math.Round((decimal)item.Price, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span><span class="price-sale">@((Math.Round((decimal)item.PromotionPrice, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="mr-2 price-sale">@((Math.Round((decimal)item.Price, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span>
+                                                }
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-area d-flex px-3">
+                                        <div class="m-auto d-flex">
+                                            <a href="@urlProductDetail" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                                <span>
+                                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a class="buy-now d-flex justify-content-center align-items-center mx-1 btnAddToCart" data-id="@item.ProductId">
+                                                <span>
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="heart d-flex justify-content-center align-items-center ">
+                                                <span>
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+
+            </div>
+        </div>
+    </section>
+
+}
+
+
+@if (Model.CabinetLatests.Count > 0)
+{
+    <section class="ftco-section product-section">
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    @*<span class="subheading">Featured Products</span>
+                        <h2 class="mb-4">Our Products</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>*@
+
+                    @*<h2 class="mb-4">Sản Phẩm Mới Nhất</h2>*@
+                    <span class="subheading">Tủ Mới Nhất</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                @{
+
+                    foreach (var item in Model.CabinetLatests)
+                    {
+                        var urlImage = "";
+
+                        // Tủ
+                        urlImage = "/images/ImageProduct/Tu/" + item.Image;
+
+                        var urlProductDetail = "/" + "san-pham-chi-tiet" + "/" + item.ProductId + ".html";
+
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="product">
+                                <a href="#" class="img-prod">
+                                    <img class="img-fluid" src=@urlImage alt="Colorlib Template">
+                                    <span class="status">30%</span>
+                                    <div class="overlay"></div>
+                                </a>
+                                <div class="text py-3 pb-4 px-3 text-center">
+                                    <h3><a href="#">@item.ProductName</a></h3>
+                                    <div class="d-flex">
+                                        <div class="pricing">
+                                            <p class="price">
+                                                @if (item.PromotionPrice != null && item.PromotionPrice != 0)
+                                                {
+                                                    <span class="mr-2 price-dc">@((Math.Round((decimal)item.Price, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span><span class="price-sale">@((Math.Round((decimal)item.PromotionPrice, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="mr-2 price-sale">@((Math.Round((decimal)item.Price, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span>
+                                                }
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-area d-flex px-3">
+                                        <div class="m-auto d-flex">
+                                            <a href="@urlProductDetail" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                                <span>
+                                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1 btnAddToCart" data-id="@item.ProductId">
+                                                <span>
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="heart d-flex justify-content-center align-items-center ">
+                                                <span>
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+
+            </div>
+        </div>
+    </section>
+
+}
+
+@if (Model.BedLatests.Count > 0)
+{
+    <section class="ftco-section product-section">
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">Giường Mới Nhất</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                @{
+
+                    foreach (var item in Model.BedLatests)
+                    {
+                        var urlImage = "";
+
+                        // Giường
+                        urlImage = "/images/ImageProduct/Giuong/" + item.Image;
+
+                        var urlProductDetail = "/" + "san-pham-chi-tiet" + "/" + item.ProductId + ".html";
+
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="product">
+                                <a href="#" class="img-prod">
+                                    <img class="img-fluid" src=@urlImage alt="Colorlib Template">
+                                    <span class="status">30%</span>
+                                    <div class="overlay"></div>
+                                </a>
+                                <div class="text py-3 pb-4 px-3 text-center">
+                                    <h3><a href="#">@item.ProductName</a></h3>
+                                    <div class="d-flex">
+                                        <div class="pricing">
+                                            <p class="price">
+                                                @if (item.PromotionPrice != null && item.PromotionPrice != 0)
+                                                {
+                                                    <span class="mr-2 price-dc">@((Math.Round((decimal)item.Price, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span><span class="price-sale">@((Math.Round((decimal)item.PromotionPrice, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="mr-2 price-sale">@((Math.Round((decimal)item.Price, 0, MidpointRounding.AwayFromZero)).ToString("N0").Replace(",", ".")) Vnđ</span>
+                                                }
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-area d-flex px-3">
+                                        <div class="m-auto d-flex">
+                                            <a href="@urlProductDetail" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                                <span>
+                                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1 btnAddToCart" data-id="@item.ProductId">
+                                                <span>
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="heart d-flex justify-content-center align-items-center ">
+                                                <span>
+                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+
+            </div>
+        </div>
+    </section>
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

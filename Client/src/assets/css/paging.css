@@ -1,0 +1,226 @@
+/* Paging */
+.paging{
+    width: calc(100% - 32px);
+    left: 16px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    right: 16px;
+    line-height: 40px;
+    border-bottom-right-radius: 3.5px;
+    overflow: hidden;
+    border-bottom-left-radius: 3.5px;
+    border-radius: 3.5px 3.5 0px 0px !important;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+    box-shadow:0 7px 8px rgb(0 0 0 / 16%);
+    display: flex;
+    border-top: 0.5px solid #e2e2e2!important;
+}
+
+.paging .record-in-page{
+    position: relative;
+    line-height: 23px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    padding-left: 8px;
+    margin-left: 24px;
+    background-color: #ffffff;
+    border-radius: 2.625px;
+    border: 1px solid #afafaf;
+    width: 59px;
+    height: 25px;
+    overflow: hidden;
+
+}
+
+/* .paging .record-in-page .icon-down{
+    width: 8px;
+    height: 8px;
+    background-image: url('../../icon/icon-down.png');
+    background-repeat : no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+} */
+
+/* List page number */
+
+.list-page{
+    margin-left: 24px;
+}
+
+.list-page ul{
+    display : flex;
+    list-style-type : none;
+    padding: 0px;
+}
+
+.list-page ul li a{
+    text-decoration : none; 
+}
+
+.list-page ul li {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    margin: 0px 5px;
+    line-height: 20px;
+    text-align : center;
+    cursor: pointer;
+}
+
+.list-page ul .first-page{
+    border-radius: 3px;
+    background-color: #E9EBEE;
+}
+
+/* .list-page ul .icon-prev{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../icon/btn-prev-page.svg');
+    background-repeat : no-repeat;
+    background-size: contain;
+}
+
+.list-page ul .icon-next{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../icon/btn-next-page.svg');
+    background-repeat : no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+} */
+
+.info-page{
+    text-indent: 16px;
+    /* margin-left: 16px; */
+    width: 150px;
+    /* padding-left: 16px; */
+}
+
+.pagination{
+    margin-top: 10px;
+}
+
+.pagination li .page-link{
+    outline: none;
+    background-color: #ffffff;
+    border: none;
+}
+
+.total-value-column{
+    display: flex;
+    position: absolute;
+    /* right: 126.28px; */
+    right: 114px;
+}
+.total-value-column .total-ResidualValue{
+    /* width: 114px; */
+    text-align: right;
+}
+.total-value-column .total-hmkh{
+    /* width: 114px; */
+    /* right: 114px; */
+    text-align: right;
+}
+
+.total-value-column .total-cost{
+    /* width: 114px; */
+    /* right: 114px; */
+    text-align: right;
+}
+
+.total-value-column .total-quantity{
+    /* width: 87px; */
+    text-align: right;
+}
+
+.total-value-column span{
+    font-weight: bold;
+}
+
+.total-record{
+    font-weight: 700;
+}
+
+.active-current-page{
+    background-color: #f5f5f5;
+    font-weight: 700;
+}
+
+.pagination-link--active{
+    background-color: #f5f5f5 !important;
+    font-weight: 700;
+}
+
+/* .ToFirstPage{
+    display: none !important;
+}
+.ToLastPage{
+    display: none !important;
+} */
+
+.pagination li:first-child{
+    display: none !important;
+}
+
+.pagination li:last-child{
+    display: none !important;
+}
+
+.pagination li button{
+    cursor: pointer;
+}
+
+/* .pagination li:nth-child(2) button{
+    background-image: url('../../icon/btn-prev-page.svg');
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.pagination li:nth-last-child(2) button{
+    background-image: url('../../icon/btn-next-page.svg');
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+} */
+
+/* Paging Ghi tăng */
+
+.paging-usedfixedasset{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    display: flex;
+}
+
+
+.popup-info-assets .paging-usedfixedasset{
+    width: calc(100% - 32px);
+    margin-left: 16px;
+}
+.paging-choosed-fixedasset .info-page{
+    text-indent: 0px !important;
+}
+
+
+.list-page{
+    display: flex;
+    justify-content: center;
+}
+
+.list-page .pagination .page-item .page-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

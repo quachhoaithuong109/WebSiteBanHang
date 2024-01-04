@@ -1,0 +1,107 @@
+﻿@model NXHOANG.ApplicationCore.ViewModel.FooterViewModel
+
+
+<div class="container">
+    <div class="row">
+        <div class="mouse">
+            <a href="#" class="mouse-icon">
+                <div class="mouse-wheel">
+                    <span>
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">NXHOANG</h2>
+                <p>@Model.FooterInfo</p>
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                    <li class="ftco-animate">
+                        <a href="#">
+                            <span>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="ftco-animate">
+                        <a href="#">
+                            <span>
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="ftco-animate">
+                        <a href="#">
+                            <span>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+                <h2 class="ftco-heading-2">Danh Mục</h2>
+                <ul class="list-unstyled">
+                    @foreach (var item in Model.Menus)
+                    {
+                        <li>
+                            <a href="#" class="py-2 d-block">
+                                @item.ProductCategoryName
+                            </a>
+                        </li>
+                    }
+                    
+                </ul>
+            </div>
+        </div>
+        @*<div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Help</h2>
+                <div class="d-flex">
+                    <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                        <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+                        <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
+                        <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+                        <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">FAQs</a></li>
+                        <li><a href="#" class="py-2 d-block">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+        <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Thông Tin Liên Hệ</h2>
+                <div class="block-23 mb-3">
+                    <ul>
+                        <li class="icon-footer-info-contact">
+                            <span>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">@Model.Infos[0]</span>
+                        </li>
+
+                        <li class="icon-footer-info-contact">
+                            <span>
+                                <i class="fa fa-Phone" aria-hidden="true"></i>
+                           </span>
+                            <span class="text">@Model.Infos[1]</span>
+                        </li>
+                        <li class="icon-footer-info-contact">
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span class="text">@Model.Infos[2]</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

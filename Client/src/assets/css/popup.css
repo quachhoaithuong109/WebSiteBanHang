@@ -1,0 +1,630 @@
+/* Dialog */
+.m-popup{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.wrap-popup {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #454545;
+    opacity : 0.4;
+}
+
+.popup-info-assets {
+    width: 950px;
+    height: calc(100vh - 157px);
+    background-color: #ffffff;
+    position: absolute;
+    top: calc(50%);
+    left: calc(50%);
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
+.header-popup {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.close-popup {
+    background-position: center;
+    background-image: url('../images/icons/icon-close-popup.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: 16px;
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.close-popup:hover {
+    background-color: #E5E5E5;
+}
+
+/*Content popup*/
+
+.content-popup{
+    height: calc(100vh - 257px);
+    width: 100%;
+}
+
+.content-popup .form-fixedAsset-right{
+    display: flex;
+}
+
+.content-popup .left-content-popup {
+    height: 100%;
+    /* width: 300px; */
+    width: 316.6px;
+}
+
+.content-popup .right-content-popup {
+    height: 100%;
+    width: 633.3px;
+}
+
+/*Footer popup*/
+
+.wrap-footer-popup{
+    height: 76px !important;
+    background-color: #f4f7ff;
+    position: relative;
+}
+
+.footer-popup {
+    border-bottom-left-radius: 4px;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    border-bottom-right-radius: 4px;
+    border-top: 1px solid #bbbbbb;
+}
+
+.wrap-footer-popup .footer-popup {
+    position: absolute;
+    top: 20px;
+}
+
+.footer-popup .wrap-button-footer {
+    display: flex;
+    position: absolute;
+    right: 16px;
+}
+
+.popup-info-assets .input-form{
+    margin-left: 16px;
+}
+
+.popup-info-assets .form-fixedAsset-right .input-form-left{
+ margin-left: 16px;
+
+}
+
+.popup-info-assets .form-fixedAsset-right .input-form-right{
+    margin-left: 16px;
+}
+
+.popup-info-assets .input-form{
+    margin-left: 16px;
+}
+.popup-info-assets  .input-form.input-form-flex{
+    display: flex;
+}
+
+.popup-info-assets  .input-form-flex .input-form-right{
+    margin-left: 16px;
+}
+
+.popup-info-assets .input-form-typenumber{
+    position: relative;
+}
+
+.popup-info-assets .first-input-form{
+    margin-top: 8px;
+}
+
+.popup-info-assets .first-input-form label{
+    margin-bottom: 0px !important;
+}
+
+.m-combobox-popup {
+    margin-left: 0px;
+    margin-top: 8px;
+    height: 36px;
+    /* width: 278.6px !important; */
+    width: 295.3px;
+}
+
+.m-combobox input{
+    border-radius: 4px 0px 0px 4px !important;
+}
+
+/* .m-popup .content-popup .input-form .icon-top{
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    background-image: url(../../icon/icon-top.png);
+    background-repeat: no-repeat;
+    right: 16px;
+    top: 34px;
+    background-size: 7px 5px;
+    cursor: pointer;
+    background-position: center;
+} */
+
+
+/* .m-popup .content-popup .input-form .icon-down{
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    background-image: url(../../icon/icon-down.png);
+    background-repeat: no-repeat;
+    right: 16px;
+    top: 45px;
+    background-size:  8px 5px;
+    background-position: center;
+    cursor: pointer;
+} */
+
+.m-popup .content-popup .input-form .icon-top:hover{
+    background-color: #bbbbbb !important;
+}
+.m-popup .content-popup .input-form .icon-down:hover{
+    background-color: #bbbbbb !important;
+}
+
+
+/* Dialog confirm khi xóa */
+
+.dialog-confirm-model{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+}
+
+.wrap-dialog-confirm{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #454545;
+    opacity : 0.4;
+}
+
+.m-dialog-confirm{
+    width: 350px;
+    height: 174px;
+    position: absolute;
+    left: calc(50% - 175px);
+    top: calc(50% - 87px);
+    background-color:#ffffff;
+    border-radius: 4px;
+}
+
+
+.m-dialog-confirm .content-dialog-confirm{
+    display: flex;
+    align-items: center;
+    /* margin-top: 62px; */
+    height: calc(100% - 56px);
+    margin-top: 10px;
+}
+
+.m-dialog-confirm .icon-dialog-confirm{
+    width: auto;
+    height: auto;
+    margin-left: 24px;
+}
+
+.m-dialog-confirm .icon-dialog-confirm i{
+    font-size: 24px !important;
+    color: #ffc502;
+}
+
+.m-dialog-confirm .content-dialog-confirm .text-dialog-confirm{
+    color: #000000;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 24px;
+    width: 270px;
+    padding-left: 15px;
+    /* text-indent: 15px; */
+}
+
+.m-dialog-confirm .button-dialog-confirm{
+    position: absolute;
+    height: 56px;
+    width: 100%;
+    /* background-color: #E5E5E5; */
+    margin-top: 24px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    justify-content: flex-end;
+    display: flex;
+    bottom: 0px;
+}
+
+.button-dialog-confirm .m-btn-delete{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 16px;
+    margin-top: 10px;
+    background-color: #1aa4c8;
+}
+
+.button-dialog-confirm .m-btn-delete:hover{
+    background-color: #0582a2;
+}
+
+.button-dialog-confirm .m-btn-delete:active{
+    background-color: #28b7dc;
+}
+
+.form-fixedAsset-first{
+    margin-top: 0px !important;
+}
+
+.form-fixedAsset{
+    margin-top: 20px;
+    display: flex;
+}
+
+/* Popup của module ghi tăng */
+
+.form-Voucher{
+    width: calc(100% - 32px);
+    margin-left: 16px;
+    padding: 16px 0px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.form-Voucher .input-form{
+    margin-left: 16px;
+}
+
+
+.form-Voucher .input-popup{
+    width: 250px !important;
+    margin-top: 8px;
+}
+
+.form-Voucher .vdpComponent.vdpWithInput>input{
+    width: 284.6px;
+
+}
+
+.header-popup .info-detail{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.popup-info-voucher{
+    width: 950px;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    top: calc(50%);
+    left: calc(50%);
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
+.popup-info-voucher .grid-summary-popup{
+    font-weight: 700;
+}
+
+.popup-info-voucher .paging-usedfixedasset{
+    width:calc(100% - 32px);
+    margin-left: 16px;
+}
+
+.form-Voucher .row-form-bottom{
+    margin-top: 20px;
+}
+
+.form-Voucher .row-form .input-row{
+    width: 852px !important;
+}
+
+.title-info-voucher{
+    line-height: 36px;
+    height: 36px;
+    margin-top: 16px !important;
+}
+
+.title-info-voucher span{
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wrap-form-voucher .toolbar-popup-fixedasset{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-form-voucher .toolbar-popup-fixedasset{
+    position: relative;
+    width: calc(100% - 32px);
+    margin-left: 16px;
+    /* padding: 16px 0px; */
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #fff;
+}
+
+.wrap-form-voucher .toolbar-popup-fixedasset .input-search{
+    margin-left: 16px;
+}
+
+.wrap-form-voucher .choose-fixedAsset{
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+}
+
+.wrap-form-voucher .choose-fixedAsset{
+    border : 1px solid #bbbbbb;
+    height: 36px;
+    box-sizing: border-box;
+    line-height: 36px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.wrap-form-voucher .choose-fixedAsset .icon-choose-fixedasset{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.wrap-form-voucher .choose-fixedAsset .icon-choose-fixedasset i{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #534d4d;
+}
+
+.wrap-form-voucher .grid-detail-popup{
+    /* width: calc(100% - 32px);
+    margin-left: 16px; */
+    width: calc(100% - 32px);
+    margin-left: 16px;
+    background-color: #ffffff;
+}
+
+/* Popup nguồn nguyên giá  */
+
+.content-origin-funding{
+    height: calc(100vh - 366px) !important;
+}
+
+.popup-orgin-funding{
+    width: 890px;
+    height: calc(100vh - 270px);
+    background-color: #ffffff;
+    position: absolute;
+    /* top: 24px; */
+    top: calc(50%);
+    left: calc(50%);
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
+.label-origin-cost{
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 16px;
+}
+
+.wrap-label-origin-cost{
+    margin-bottom: 8px !important;
+}
+
+.label-origin-cost .label-cost-declare{
+    width: 380px;
+}
+
+.label-origin-cost .label-cost-value{
+    width: 146px;
+    margin-left: 24px;
+}
+
+.icon-add-origin-cost .btn-add-origin-funding{
+    margin-top: 8px;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-add-origin-cost .btn-add-origin-funding i{
+    font-size: 12px;
+    color: #534d4d;
+}
+
+.icon-delete-origin-cost .btn-delete-origin-funding{
+    margin-top: 8px;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-delete-origin-cost .btn-delete-origin-funding i{
+    font-size: 12px;
+    color: #534d4d;
+}
+
+.title-cost{
+    margin-top: 20px !important;
+}
+
+.title-cost span{
+    font-size: 13px !important;
+    font-weight: 700 !important;
+}
+
+.input-origin-cost-value{
+    /* margin-top: 8px; */
+    width: 110px !important;
+    text-align: right;
+}
+
+.icon-add-origin-cost{
+    margin-left: 24px;
+}
+
+.popup-orgin-funding .input-form-origin-funding{
+    width: calc(100% - 32px);
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+
+.popup-orgin-funding .input-form-origin-funding .input-disable-origin{
+    margin-top: 8px;
+    width: 60%;
+}
+
+/* Popup chọn tài sản */
+
+.popup-choose-assets{
+    width: 950px;
+    /* height: calc(100vh - 48px); */
+    /* height: calc(100vh - 153px); */
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    /* top: 24px; */
+    top: calc(50%);
+    left: calc(50%);
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
+.popup-choose-assets .checkbox-table{
+    width: 20px;
+}
+
+.popup-choose-assets .stt-table {
+    width: 20px;
+}
+
+.popup-choose-assets .info-page{
+    margin-left: 16px;
+}
+
+.popup-info-assets .textarea-popup-right{
+    padding: 7px 16px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    width: 918px;
+    height: 82px;
+}
+
+.popup-info-assets .text-full-form{
+    margin-top: 8px;
+}
+
+.wrap-uploadImage{
+    display: flex;
+    position: relative;
+}
+
+.img-upload{
+    height: 67px;
+    width: 100px;
+    border: 1px solid #bbbbbb;
+    position: absolute;
+    left: 160px;
+    top: -31px;
+}
+
+.img-upload img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-upload-img{
+    height: 36px;
+    margin-right: 20px;
+}
+
+.btn-upload-img i{
+    margin-right: 5px;
+}
+
+
+.popup-info-assets .grid table{
+    min-width: 950px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

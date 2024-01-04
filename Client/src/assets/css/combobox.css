@@ -1,0 +1,167 @@
+/* combobox */
+
+.m-combobox{
+    position: relative;
+    display: flex;
+    color: #000;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    /* margin-top: 4px; */
+    min-width: 100px;
+    box-sizing: border-box;
+}
+
+.m-toolbar-combobox{
+    margin-left: 16px;
+    margin-top: 0px;
+    width: 230px !important;
+}
+
+.m-combobox input{
+    width: calc(100% - 40px);
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.m-toolbar-combobox input{
+    padding-left: 40px !important;
+    max-width: 188px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.m-combobox input::placeholder{
+    font-size: 13px;
+}
+
+.m-combobox .m-combobox-button{
+    flex-shrink: 0;
+    width: 40px;
+    padding: 0 12px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 7px 5px;
+    background-position: 15px 12px;
+}
+
+.m-combobox .m-combobox-button:hover{
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+.m-combobox .m-combobox-button i{
+    font-size: 14px;
+    color: #534d4d;
+}
+
+.m-combobox .m-combobox-select{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    box-shadow: 1px 4px 5px -1px #ccc;
+    border-radius: 4px;
+    padding: 4px 0;
+    background-color: #ffffff;
+    z-index: 3;
+    max-height: 120px;
+    overflow-x: scroll;
+}
+.m-combobox .m-combobox-select .m-combobox-item{
+    line-height: 36px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.m-combobox .m-combobox-select .m-combobox-item:hover{
+    background-color: #E9EBEE;
+}
+
+.m-combobox .m-item-selected{
+    background-color: #c7e0f5;
+}
+.m-combobox .m-item-selected:hover{
+    background-color: #c7e0f5 !important;
+}
+.m-combobox .m-item-selected i{
+    font-size: 14px;
+    left: 10px;
+    position: absolute;  
+    margin-top: 10px;
+}
+
+/* Hidden Dwopdown */
+.m-hidden-dropdown{
+    display: none;
+}
+
+.m-combobox-input{
+    padding-left: 16px !important;
+}
+
+.m-combobox-paging{
+    background-color: #ffffff;
+    border-radius: 2.625px;
+    border: 1px solid #afafaf;
+    width: 59px;
+    height: 25px;
+    overflow: hidden;
+    margin-top: 7.5px !important;
+    min-width: 70px !important;
+}
+
+.m-combobox-button-paging{
+    width: 20px !important;
+    /* background-position: 15px 4px !important; */
+    padding: 0 8px !important;
+    background-image: url('../images/icons/icon-down.png');
+    background-size: 5px 7px;
+    background-repeat: no-repeat;
+    background-position: center !important;
+}
+
+.m-combobox-input-paging{
+    width: calc(100% - 20px) !important;
+}
+
+/* Combobox trên popup nguồn kinh phí */
+
+.m-custom-combobox{
+    width: 380px !important;
+    margin-left: 0px !important;
+    /* margin-top: 8px; */
+}
+
+.m-custom-combobox .icon-combobox{
+    background-image: none !important;
+    background-size: 0px !important;
+}
+
+.m-custom-combobox input
+{
+    padding-left: 16px !important;
+    max-width: initial;
+}
+
+
+.m-popup .m-combobox-popup{
+    width: 453px !important;
+}

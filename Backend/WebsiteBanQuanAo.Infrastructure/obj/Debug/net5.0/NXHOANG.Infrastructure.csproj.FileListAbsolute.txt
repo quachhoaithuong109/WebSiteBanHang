@@ -1,0 +1,60 @@
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.deps.json
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.AssemblyReference.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfoInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfo.cs
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CopyComplete
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\refint\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.Infrastructure\obj\Debug\net5.0\ref\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.deps.json
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.dll
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.pdb
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.AssemblyReference.cache
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfoInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfo.cs
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CopyComplete
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\refint\NXHOANG.Infrastructure.dll
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\DATN2\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\ref\NXHOANG.Infrastructure.dll
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.deps.json
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.dll
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.pdb
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.AssemblyReference.cache
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfoInputs.cache
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfo.cs
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CopyComplete
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\refint\NXHOANG.Infrastructure.dll
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\DATN\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\ref\NXHOANG.Infrastructure.dll
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.deps.json
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\ref\NXHOANG.Infrastructure.dll
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.Infrastructure.pdb
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.dll
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\bin\Debug\net5.0\NXHOANG.ApplicationCore.pdb
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.AssemblyReference.cache
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfoInputs.cache
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.AssemblyInfo.cs
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.csproj.CopyComplete
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.dll
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\ref\NXHOANG.Infrastructure.dll
+D:\Xây dựng Website\DoAnTotNghiep\DoAnTotNghiep\Backend\NXHOANG.Infrastructure\obj\Debug\net5.0\NXHOANG.Infrastructure.pdb

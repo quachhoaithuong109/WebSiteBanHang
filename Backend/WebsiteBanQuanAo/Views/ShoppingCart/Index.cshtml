@@ -1,0 +1,145 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Slide -->
+
+@await Component.InvokeAsync("SliderOption");
+
+<link rel="stylesheet" href="/css/CustomCss/ShoppingCart.css" />
+
+
+<section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="cart-list">
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>&nbsp;</th>
+                                <th>Hình ảnh</th>
+                                <th>Tên Sản Phẩm</th>
+                                <th>Giá</th>
+                                <th>Số Lượng</th>
+                                <th>Tổng</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row row-margin-top">
+            <div class="col-md-12 ftco-animate">
+                <button class="btn btn-danger button-shopping-cart" id="btnDeleteAll">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    <span>
+                        Xóa tất cả
+                    </span>
+                </button>
+                <button class="btn btn-warning button-shopping-cart btn-confirm" id="btnCheckout">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    <span>Đặt hàng</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row row-margin-top">
+            <div class="col-md-12">
+                <div id="divCheckout" style="display:none;">
+                    <div class="reservation_top">
+                        <div class="contact_right">
+                            <h4>Vui lòng nhập thông tin</h4>
+                            <div class="contact-form">
+                                <form method="post" id="frmPayment">
+
+                                    @*@if (Request.IsAuthenticated)
+                                        {
+                                            <label>
+                                                <input type="checkbox" id="chkUserLoginInfo" />
+                                                Sử dụng thông tin đăng nhập
+                                            </label>
+                                        }*@
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtName" name="name" placeholder="Họ tên">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtAddress" name="address" placeholder="Địa chỉ">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtEmail" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtPhone" name="phone" placeholder="Điện thoại">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <textarea value="" class="user-message" id="txtMessage form-control" style="font-size : 15px;" placeholder="Ghi chú"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-warning btn-confirm" id="btnCreateOrder">
+                                            <i class="fa fa-check-circle" aria-hidden="true"></i> 
+                                            <span>Xác nhận</span>
+                                        </button>
+                                        @*<input type="button" id="btnCreateOrder" value="Thanh toán">*@
+                                    </div>
+
+                                    <div class="clearfix"> </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    </div>
+</section>
+
+
+<script id="tplCart" type="x-tmpl-mustache">
+
+   <tr class="text-center">
+        <td class="product-remove">
+            <a class = "btnDeleteItem" data-id="{{ProductId}}">
+                <span>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+            </a>
+        </td>
+
+        <td class="image-prod"><div class="img" style="background-image:url(/images/ImageProduct/{{Image}});"></div></td>
+
+        <td class="product-name">
+            <h3>{{ProductName}}</h3>
+        </td>
+
+        <td class="price">{{Price}}</td>
+
+        <td class="quantity">
+            <div class="input-group mb-3">
+                <input type="text" name="quantity" data-id="{{ProductId}}" class="txtQuantity quantity form-control input-number" value="{{Quantity}}" min="1" max="100">
+            </div>
+        </td>
+
+        <td class="total" id="amount_{{ProductId}}">{{Amount}}</td>
+    </tr>
+
+</script>
+
+
+
+
+
+
+

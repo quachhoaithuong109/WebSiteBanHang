@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\js\Mustache\node_modules\mustache\package.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\Mustache\node_modules\.bin\mustache" />
+    <None Include="wwwroot\js\Mustache\node_modules\.bin\mustache.cmd" />
+    <None Include="wwwroot\js\Mustache\node_modules\.bin\mustache.ps1" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\bin\mustache" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\CHANGELOG.md" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\LICENSE" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\mustache.js" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\mustache.min.js" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\mustache.mjs" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\README.md" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\dojo\mustache.js.post" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\dojo\mustache.js.pre" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\jquery\mustache.js.post" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\jquery\mustache.js.pre" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\mootools\mustache.js.post" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\mootools\mustache.js.pre" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\qooxdoo\mustache.js.post" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\qooxdoo\mustache.js.pre" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\yui3\mustache.js.post" />
+    <None Include="wwwroot\js\Mustache\node_modules\mustache\wrappers\yui3\mustache.js.pre" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NXHOANG.ApplicationCore\NXHOANG.ApplicationCore.csproj" />
+    <ProjectReference Include="..\NXHOANG.Infrastructure\NXHOANG.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\ImageProduct\BanGhe\" />
+    <Folder Include="wwwroot\Images\ImageProduct\Tu\" />
+    <Folder Include="wwwroot\Images\ ImageProduct\Giuong\" />
+    <Folder Include="wwwroot\js\Libs\" />
+  </ItemGroup>
+
+</Project>

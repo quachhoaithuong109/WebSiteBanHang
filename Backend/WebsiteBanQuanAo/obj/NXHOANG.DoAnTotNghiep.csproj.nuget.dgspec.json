@@ -1,0 +1,226 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.DoAnTotNghiep\\NXHOANG.DoAnTotNghiep.csproj": {}
+  },
+  "projects": {
+    "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj",
+        "projectName": "NXHOANG.ApplicationCore",
+        "projectPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\HOÀI THƯƠNG\\.nuget\\packages\\",
+        "outputPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HOÀI THƯƠNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.DoAnTotNghiep\\NXHOANG.DoAnTotNghiep.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.DoAnTotNghiep\\NXHOANG.DoAnTotNghiep.csproj",
+        "projectName": "NXHOANG.DoAnTotNghiep",
+        "projectPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.DoAnTotNghiep\\NXHOANG.DoAnTotNghiep.csproj",
+        "packagesPath": "C:\\Users\\HOÀI THƯƠNG\\.nuget\\packages\\",
+        "outputPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.DoAnTotNghiep\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HOÀI THƯƠNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj": {
+                "projectPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj"
+              },
+              "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.Infrastructure\\NXHOANG.Infrastructure.csproj": {
+                "projectPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.Infrastructure\\NXHOANG.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.Infrastructure\\NXHOANG.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.Infrastructure\\NXHOANG.Infrastructure.csproj",
+        "projectName": "NXHOANG.Infrastructure",
+        "projectPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.Infrastructure\\NXHOANG.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HOÀI THƯƠNG\\.nuget\\packages\\",
+        "outputPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HOÀI THƯƠNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj": {
+                "projectPath": "D:\\Xây dựng Website\\DoAnTotNghiep\\DoAnTotNghiep\\Backend\\NXHOANG.ApplicationCore\\NXHOANG.ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

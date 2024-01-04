@@ -1,0 +1,31 @@
+﻿
+.product-section{
+    padding:0px !important;
+}
+
+.product .img-prod img {
+    background-size: contain;
+    width: 100% !important;
+    height: 220px !important;
+}
+
+.price-dc{
+    font-size:13px !important;
+}
+
+.icon-footer-info-contact span{
+    margin-right: 10px !important;
+}
+
+.product-name-text {
+    width: 220px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<link rel="stylesheet" href="/css/CustomCss/register.css" />
+
+<section class="ftco-section ftco-cart section-login">
+    <div class="container">
+        <div class="row row-margin-top">    
+            <div class="col-12">
+                <div>
+                    <div class="reservation_top">
+                        <div class="contact_right">
+                            <h4 class="text-center">Đăng ký tài khoản</h4>
+                            <div class="contact-form">
+                                <form method="post" id="frmPayment">
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtUserName" name="UserName" placeholder="Họ tên (*)">
+                                        <span class="error-validate validate-user-name"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtUserEmail" name="Email" placeholder="Email (*)">
+                                        <span class="error-validate validate-user-email"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtUserPhone" name="UserPhone" placeholder="Số điện thoại (*)">
+                                        <span class="error-validate validate-user-Phone"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtUserAddress" name="UserAddress" placeholder="Địa chỉ (*)">
+                                        <span class="error-validate validate-user-address"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" class="textbox form-control" id="txtPassWord" name="passWord" placeholder="Mật khẩu (*)">
+                                        <span class="error-validate validate-user-password"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" class="textbox form-control" id="txtPassWordAgain" name="passWord" placeholder="Nhập lại mật khẩu (*)">
+                                        <span class="error-validate validate-user-password-again"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-confirm" id="btnRegister">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <span>Đăng ký</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="clearfix"> </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+

@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<link rel="stylesheet" href="/css/CustomCss/login.css" />
+
+<section class="ftco-section ftco-cart section-login">
+    <div class="container">
+        <div class="row row-margin-top">
+            <div class="col-6">
+                <div>
+                    <div class="reservation_top">
+                        <div class="contact_right">
+                            <h4 class="text-center">Đăng nhập</h4>
+                            <div class="contact-form">
+                                <form method="post" id="frmPayment">
+
+                                    <div class="form-group">
+                                        <input type="text" class="textbox form-control" id="txtUserEmail" name="name" placeholder="Email (*)">
+                                        <span class="error-validate validate-email"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" class="textbox form-control" id="txtPassWord" name="passWord" placeholder="Mật khẩu (*)">
+                                        <span class="error-validate validate-password"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-confirm" id="btnLogin">
+                                            <i class="fa fa-sign-in" aria-hidden="true"></i>
+                                            <span>Đăng nhập</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="clearfix"> </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>
+                    <div class="reservation_top">
+                        <div class="contact_right">
+                            <h4 class="text-center">Đăng nhập với mạng xã hội</h4>
+                            <div class="contact-form">
+                                <div class="social-login text-center">
+                                    <a href="#" class="facebook btn btn-block" id="facebook">
+                                        <span class="mr-3">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                    <a href="#" class="google btn btn-block" id="google">
+                                        <span class="mr-3">
+                                            <i class="fa fa-google" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="login-left">
+                    <h4>Chưa có tài khoản</h4>
+                    <p>Nếu bạn chưa có tài khoản vui lòng đăng ký tại link dưới đây:</p>
+                    <a class="acount-btn" href="/dang-ky.html">Đăng ký thành viên</a>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<style>
+
+    #facebook {
+        width: 100%;
+        color: white;
+        background-color: #4267B2;
+        height: 40px;
+        line-height: 26px;
+        font-size: 19px;
+        border-radius: 6px;
+    }
+
+    #google {
+        border-radius: 5px;
+        background: #db4437;
+        color: white;
+        width: 100%;
+        line-height: 26px;
+        height: 40px;
+        font-size: 21px;
+    }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

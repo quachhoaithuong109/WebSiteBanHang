@@ -1,0 +1,24 @@
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\bin\Debug\net5.0\DDHUNG.ApplicationCore.deps.json
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\bin\Debug\net5.0\DDHUNG.ApplicationCore.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\bin\Debug\net5.0\ref\DDHUNG.ApplicationCore.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\bin\Debug\net5.0\DDHUNG.ApplicationCore.pdb
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.csproj.AssemblyReference.cache
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.AssemblyInfoInputs.cache
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.AssemblyInfo.cs
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\ref\DDHUNG.ApplicationCore.dll
+F:\C#\Đồ Án Tốt Nghiệp\DDHUNG.DoAnTotNghiep\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\bin\Debug\net5.0\DDHUNG.ApplicationCore.deps.json
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\bin\Debug\net5.0\DDHUNG.ApplicationCore.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\bin\Debug\net5.0\DDHUNG.ApplicationCore.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.csproj.AssemblyReference.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.AssemblyInfoInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.AssemblyInfo.cs
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\refint\DDHUNG.ApplicationCore.dll
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\DDHUNG.ApplicationCore.pdb
+D:\DATN2\DoAnTotNghiep\Backend\DDHUNG.ApplicationCore\obj\Debug\net5.0\ref\DDHUNG.ApplicationCore.dll
