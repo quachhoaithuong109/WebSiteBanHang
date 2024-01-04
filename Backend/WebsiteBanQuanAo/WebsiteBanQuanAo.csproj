@@ -32,8 +32,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NXHOANG.ApplicationCore\NXHOANG.ApplicationCore.csproj" />
-    <ProjectReference Include="..\NXHOANG.Infrastructure\NXHOANG.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebsiteBanQuanAo.ApplicationCore\WebsiteBanQuanAo.ApplicationCore.csproj" />
+    <ProjectReference Include="..\WebsiteBanQuanAo.Infrastructure\WebsiteBanQuanAo.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

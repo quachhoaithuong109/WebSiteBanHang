@@ -1,7 +1,7 @@
-using NXHOANG.ApplicationCore.Interface.Repository;
-using NXHOANG.ApplicationCore.Interface.Service;
-using NXHOANG.ApplicationCore.Service;
-using NXHOANG.Infrastructure;
+using WebsiteBanQuanAo.ApplicationCore.Interface.Repository;
+using WebsiteBanQuanAo.ApplicationCore.Interface.Service;
+using WebsiteBanQuanAo.ApplicationCore.Service;
+using WebsiteBanQuanAo.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NXHOANG.DoAnTotNghiep
+namespace WebsiteBanQuanAo
 {
     public class Startup
     {
